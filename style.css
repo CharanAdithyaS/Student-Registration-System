@@ -1,0 +1,58 @@
+body {
+    font-family: Arial;
+    background: #58bdd6;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* form */
+.form-box {
+    background: rgb(114, 218, 157);
+    padding: 15px;
+    width: 300px;
+}
+
+input {
+    width: 95%;
+    padding: 8px;
+    margin: 5px 0;
+}
+
+button {
+    padding: 8px;
+    width: 100%;
+}
+
+/* table */
+.table-box {
+    background: rgb(233, 166, 247);
+    padding: 15px;
+    flex: 1;
+}
+
+/* scrollbar requirement */
+.scroll {
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+/* responsive */
+@media (max-width: 640px) {
+    .main {
+        flex-direction: column;
+    }
+}
